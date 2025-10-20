@@ -1,0 +1,10 @@
+main#content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main#content > nav.contener > input {
+  width: 500px;
+  height: 30px;
+  border-radius: 60px;
+}

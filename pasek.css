@@ -1,0 +1,28 @@
+nav#pasek {
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+}
+nav#pasek > button {
+  border-radius: 60%;
+  border: none;
+}
+
+nav#pasek > button:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+nav#pasek > button > img {
+  height: 50px;
+  border-radius: 60%;
+  width: 50px;
+}
+nav#pasek > a {
+  color: black;
+  text-decoration: none;
+}
+
+nav#pasek > a:hover {
+  text-decoration: underline;
+}
