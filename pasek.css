@@ -6,6 +6,7 @@ nav#pasek {
 nav#pasek > button {
   border-radius: 60%;
   border: none;
+  background: none;
 }
 
 nav#pasek > button:hover {
@@ -17,6 +18,7 @@ nav#pasek > button > img {
   height: 50px;
   border-radius: 60%;
   width: 50px;
+  border: none;
 }
 nav#pasek > a {
   color: black;
