@@ -14,4 +14,24 @@ body {
 
 main#content > nav.wybór {
   display: flex;
+  margin-top: 20px;
+  gap: 100px;
+}
+
+main#content > nav.wybór > button {
+  width: 100px;
+  height: 110px;
+  background-color: rgb(231, 221, 255);
+  border: none;
+  border-radius: 10px;
+}
+
+main#content > nav.wybór > button:hover {
+  transition: 0.2s;
+  scale: 1.05;
+}
+
+main#content > nav.wybór > button:active {
+  scale: 0.9;
+  transition: 0.3s;
 }

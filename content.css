@@ -24,6 +24,11 @@ main#content > div.contener > button {
   background: none;
 }
 
+main#content > div.contener > button:active {
+  scale: 0.9;
+  transition: 0.03s;
+}
+
 main#content > div.contener > button > img {
   border-radius: 60%;
 }
