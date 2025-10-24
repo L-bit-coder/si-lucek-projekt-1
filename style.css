@@ -1,5 +1,17 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 #pasek {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+main#content > nav.wybór {
+  display: flex;
 }

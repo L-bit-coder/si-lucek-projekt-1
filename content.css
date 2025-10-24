@@ -3,8 +3,31 @@ main#content {
   align-items: center;
   flex-direction: column;
 }
-main#content > nav.contener > input {
-  width: 500px;
-  height: 30px;
-  border-radius: 60px;
+
+main#content > div.contener {
+  border: 3px solid slategray;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+main#content > div.contener > input {
+  width: 450px;
+  border: none;
+  margin-inline: 15px;
+  font-size: 17px;
+}
+
+main#content > div.contener > button {
+  border: none;
+  background: none;
+}
+
+main#content > div.contener > button > img {
+  border-radius: 60%;
+}
+
+main#content > div.contener > input:focus {
+  outline: none;
 }
